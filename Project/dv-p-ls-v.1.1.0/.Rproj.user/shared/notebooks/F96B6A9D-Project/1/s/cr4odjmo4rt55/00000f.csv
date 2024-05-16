@@ -1,0 +1,8 @@
+"0","ggplot(data, aes(x = `Residence Type`, fill = Diagnosis)) +"
+"0","  geom_bar(position = ""fill"", stat = ""count"") +"
+"0","  labs(title = ""Stroke Occurrences by Residence Type"","
+"0","       x = ""Residence Type"","
+"0","       y = ""Count"","
+"0","       fill = ""Diagnosis"") +"
+"0","  scale_fill_manual(values = c(""purple"", ""grey""), labels = c(""No Stroke"", ""Stroke"")) +"
+"0","  theme_minimal()"

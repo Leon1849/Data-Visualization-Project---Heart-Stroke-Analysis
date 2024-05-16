@@ -1,0 +1,9 @@
+"0","ggplot(data, aes(x = Age, fill = `Smoking Status`)) +"
+"0","geom_histogram(binwidth = 5, alpha = 0.8) +"
+"0","labs(title = ""Age Distribution by Smoking Status"", x = ""Age"", y = ""Count"") + scale_fill_brewer(palette = ""Set1"") + "
+"0","  scale_fill_manual(values = c(""Non-smoker"" = ""#85929E"",    "
+"0","                               ""Formerly Smoked"" = ""#E74C3C"", "
+"0","                               ""Currently Smokes"" = ""#34495E"")) +  "
+"0","theme_minimal()"
+"2","[38;5;254mScale for [32mfill[38;5;254m is already present.
+Adding another scale for [32mfill[38;5;254m, which will replace the existing scale.[39m"

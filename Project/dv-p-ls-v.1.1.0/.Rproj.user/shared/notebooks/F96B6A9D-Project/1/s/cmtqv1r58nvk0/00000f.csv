@@ -1,0 +1,7 @@
+"0","    ggplot(data, aes(x = `Alcohol Intake`)) +"
+"0","      geom_bar(fill = ""purple"") +"
+"0","      facet_wrap(~`Family History of Stroke`) +"
+"0","      labs(title = ""Alcohol Intake and Family History of Stroke"","
+"0","           x = ""Alcohol Intake"", y = ""Count"") +"
+"0","      coord_cartesian(ylim = c(1750, 2000)) +"
+"0","      theme_minimal() + theme(axis.text.x = element_text(angle = 45, hjust = 1))"

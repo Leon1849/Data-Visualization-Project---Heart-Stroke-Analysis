@@ -1,0 +1,19 @@
+"0",""
+"0","plot_ly(data, x = ~`Average Glucose Level`, y = ~`Body Mass Index (BMI)`, z = ~Age, "
+"0","        color = ~as.factor(`Stroke History`), "
+"0","        text = ~ifelse(`Stroke History` == 0, ""No Stroke"", ""Stroke""),  "
+"0","        hoverinfo = ""text+x+y+z+color"",  "
+"0","        symbols = ~ifelse(`Stroke History`== 0, ""No Stroke"", ""Stroke""), "
+"0","        type = ""scatter3d"", mode = ""markers"") %>%"
+"0","  layout(title = ""3D Scatter Plot: Stroke Risk by Glucose Level, BMI, and Age"","
+"0","         scene = list(xaxis = list(title = 'Average Glucose Level'),"
+"0","                      yaxis = list(title = 'BMI'),"
+"0","                      zaxis = list(title = 'Age')))"
+"2","Warning: minimal value for n is 3, returning requested palette with 3 different levels
+"
+"2","Warning: minimal value for n is 3, returning requested palette with 3 different levels
+"
+"2","Warning: minimal value for n is 3, returning requested palette with 3 different levels
+"
+"2","Warning: minimal value for n is 3, returning requested palette with 3 different levels
+"

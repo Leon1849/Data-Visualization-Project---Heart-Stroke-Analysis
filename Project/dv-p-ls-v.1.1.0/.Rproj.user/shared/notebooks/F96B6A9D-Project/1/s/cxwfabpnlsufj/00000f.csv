@@ -1,0 +1,6 @@
+"0","ggplot(data, aes(x = `Work Type`, y = Age, fill = Diagnosis)) +"
+"0","  geom_boxplot() +"
+"0","  labs(title = ""Relationship between Work Type and Age by Diagnosis"","
+"0","       x = ""Work Type"", y = ""Age"") +"
+"0","  scale_fill_manual(values = c(""No Stroke"" = ""Light Blue"", ""Stroke"" = ""Orange"")) +"
+"0","  theme_minimal()"

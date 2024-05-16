@@ -1,0 +1,7 @@
+"0","data$AgeGroup <- cut(data$Age, breaks = seq(min(data$Age), max(data$Age), by = 20), include.lowest = TRUE)"
+"0","    ggplot(data, aes(x = `Stress Levels`, fill = AgeGroup)) +"
+"0","      geom_density(alpha = 0.6) +"
+"0","      labs(title = ""Stress Level Distribution Across Age Groups"","
+"0","           x = ""Stress Levels"", y = ""Density"") +"
+"0","      theme_minimal() +"
+"0","      scale_fill_viridis(discrete = TRUE)"

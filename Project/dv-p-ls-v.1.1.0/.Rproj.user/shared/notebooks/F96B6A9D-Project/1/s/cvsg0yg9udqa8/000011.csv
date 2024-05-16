@@ -1,0 +1,6 @@
+"0","ggplot(data, aes(x = `Stress Levels`)) +"
+"0","      geom_density(fill = ""blue"", alpha = 0.5) +"
+"0","      facet_wrap(~`Work Type`) +"
+"0","      labs(title = ""Stress Levels Distribution by Work Type"","
+"0","           x = ""Stress Levels"", y = ""Density"") +"
+"0","      theme_minimal()"

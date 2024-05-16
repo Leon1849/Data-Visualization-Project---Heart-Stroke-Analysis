@@ -1,0 +1,2 @@
+"0","data <- read_excel(""heart_stroke_data.xls"")"
+"0","data <- na.omit(data)"
